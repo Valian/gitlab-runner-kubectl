@@ -1,6 +1,6 @@
 FROM gitlab/gitlab-runner:latest
 
-ENV KUSTOMIZE_VER 1.0.5
+ENV KUSTOMIZE_VER 1.0.8
 ENV KUBECTL_VER 1.11.1
 
 RUN curl -L https://github.com/kubernetes-sigs/kustomize/releases/download/v${KUSTOMIZE_VER}/kustomize_${KUSTOMIZE_VER}_linux_amd64  -o /usr/bin/kustomize \
